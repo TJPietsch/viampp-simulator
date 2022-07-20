@@ -7,4 +7,6 @@ extraction:
 #        - qttools5-dev-tools
     configure:
       command:
-        - "qmake ViamppSimulator.pro"
+	- "mkdir testdir"
+	- "cd testdir"
+        - "qmake ../ViamppSimulator.pro"
