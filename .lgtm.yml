@@ -1,12 +1,12 @@
 extraction:
   cpp:
-#   prepare:
-#     packages:
-#        - qt5-default
-#        - qtbase5-dev
-#        - qttools5-dev-tools
+   prepare:
+     packages:
+        - qt5-default
+        - qtbase5-dev
+        - qttools5-dev-tools
     configure:
       command:
-	- "mkdir testdir"
-	- "cd testdir"
-        - "qmake ../ViamppSimulator.pro"
+#	- "mkdir testdir"
+#	- "cd testdir"
+        - qmake ViamppSimulator.pro
