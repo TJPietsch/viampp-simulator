@@ -1,7 +1,7 @@
 extraction:
   cpp:
-   prepare:
-     packages:
+    prepare:
+      packages:
         - qt5-default
         - qtbase5-dev
         - qttools5-dev-tools
